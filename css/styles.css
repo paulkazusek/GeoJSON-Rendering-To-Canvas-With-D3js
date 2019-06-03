@@ -2,3 +2,7 @@ body {
   
 }
 
+#my-canvas {
+  border-style: solid;
+  border-color: black;
+}
