@@ -1,2 +1,6 @@
+var geojson = [];
 
-update(geojson);
+loadGeoJson(function (response) {
+    geojson = JSON.parse(response);
+    update(geojson);
+});
