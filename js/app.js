@@ -1,6 +1,6 @@
 var geojson = [];
 
-loadGeoJson(function (response) {
+loadGeoJson('data/ruhr_area.geojson', function (response) {
     geojson = JSON.parse(response);
     update(geojson);
 });
